@@ -1,0 +1,27 @@
+.panel {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+
+  width: 82%;
+  height: 90%;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+
+  // MakeUp
+  border-radius: 6px;
+
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  padding: 15px;
+}
