@@ -1,0 +1,35 @@
+{
+  "name": "sanjatuning.com",
+  "version": "1.0.0",
+  "description": "SanjaTuning Official Webpage",
+  "main": "src/pages/index.js",
+  "scripts": {
+    "dev": "next ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe0liveira/sanjatuning.com.git"
+  },
+  "keywords": [
+    "sanjatuning",
+    "cars",
+    "car",
+    "next",
+    "react"
+  ],
+  "author": "felipe0liveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe0liveira/sanjatuning.com/issues"
+  },
+  "homepage": "https://github.com/felipe0liveira/sanjatuning.com#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
